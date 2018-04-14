@@ -1,0 +1,39 @@
+#mario-chat{
+	width: 600px;
+    margin-left: 30%;
+	height: 500px;
+	
+	padding: 50px;
+
+}
+#output{
+	width: auto;
+	height: auto;
+}
+#chat-window{
+	background-color: lightblue;
+	width: 450px;
+	height: 300px;
+	border-radius: 4px;
+}
+#handle{
+	width: 450px;
+	height: 40px;
+	border-radius: 5px;
+}
+#message{
+
+	width: 450px;
+	height: 40px;
+	border-radius: 5px;
+    text-decoration: inherit;
+}
+#send{
+	background-color: blue;
+	width: 450px;
+	height: 40px;
+	font-family: sans-serif;
+	padding: 12px 0;
+	border-image: 3px;
+	color: white;
+}
