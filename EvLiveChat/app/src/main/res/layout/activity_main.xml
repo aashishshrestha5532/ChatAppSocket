@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.alchemist.evlivechat.MainActivity">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/listMsg"
+        android:scrollbars="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+
+
+    </android.support.v7.widget.RecyclerView>
+    <TextView
+        android:textColor="#E91E63"
+        android:id="@+id/typing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:id="@+id/handle"
+        android:hint="Enter handle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/message"
+        android:hint="Enter Messages"
+        android:layout_width="match_parent"
+        android:layout_height="85dp" />
+ <Button
+     android:id="@+id/send"
+     android:text="send"
+     android:textColor="#fafafa"
+     android:background="@color/colorPrimary"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content" />
+</LinearLayout>
